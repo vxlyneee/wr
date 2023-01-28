@@ -20,14 +20,14 @@ function welcomeMsg() {
     const welcomeMsgEl = document.querySelector("#welcomeMsg");
     let array = 0;
 
-    const takapedia = `<a href="https://takapedia.com/" target="_blank">takapedia</a>`;
-    const takapediaIG = `<a href="https://www.instagram.com/taka_pedia/" target="_blank">taka_pedia</a>`;
-    const takapediaWA = `<a href="https://api.whatsapp.com/send?phone=6287843920288" target="_blank">6287843920288</a>`;
+    const arvindgla = `<a href="https://takapedia.com/" target="_blank">takapedia</a>`;
+    const arvindglaIG = `<a href="https://www.instagram.com/vlynd__/" target="_blank">Arvind</a>`;
+    const takapediaWA = `<a href="https://api.whatsapp.com/send?phone=6283116488670" target="_blank">6283116488670</a>`;
 
     let arrayEl = [
-        `<p class="animation mb-0 text-truncate">Follow ig takapedia untuk ingfo flashsale</p>`,
-        `<p class="animation mb-0 text-truncate">IG: ${takapediaIG} / WA: ${takapediaWA}</p>`,
-        `<p class="animation mb-0 text-truncate">Gas langsung joki di ${takapedia} banh 😅☝️</p>`,
+        `<p class="animation mb-0 text-truncate">Follow IG Arvind</p>`,
+        `<p class="animation mb-0 text-truncate">IG: ${arvindglaIG} / WA: ${arvindglaWA}</p>`,
+
     ];
     setInterval(() => {
         welcomeMsgEl.innerHTML = arrayEl[array];
